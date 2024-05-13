@@ -9,6 +9,7 @@ body {
   margin: 50px 0 25px 0;
   color: rgb(255, 252, 252);
   font-size: 55px;
+  font-weight: bold;
 }
 
 #description {
@@ -69,4 +70,8 @@ form {
   border-radius: 10px;
   background-color: rgba(254, 232, 254, 0.5);
   font-size: 18px;
+}
+
+footer {
+  color: rgba(37, 37, 37, 0.8);
 }
