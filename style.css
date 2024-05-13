@@ -42,3 +42,9 @@ form {
 #name {
   margin: 10px auto;
 }
+
+#dropdown {
+  width: 100%;
+  height: 30px;
+  margin: 5px 0 10px 0;
+}
