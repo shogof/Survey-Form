@@ -48,3 +48,15 @@ form {
   height: 30px;
   margin: 5px 0 10px 0;
 }
+
+#gender {
+  font-size: 20px;
+  display: inline-block;
+  margin: 5px 0;
+}
+
+#lan {
+  font-size: 20px;
+  display: inline-block;
+  margin: 10px 0;
+}
