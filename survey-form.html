@@ -13,34 +13,50 @@
     </header>
     <main>
       <form action="" id="survey-form">
-        <label for="name" id="name">Name:</label>
-        <input type="text" id="name" placeholder="Please enter your name" />
-        <label for="email" id="email">Email:</label>
-        <input type="email" id="email" placeholder="Please enter your email" />
-        <label for="number" id="number">Number:</label>
-        <input
-          type="number"
-          id="number"
-          placeholder="Please enter your number"
-        />
-        <label for="education">Education</label>
+        <div class="info">
+          <label for="name" id="name">Name:</label><br />
+          <input
+            type="text"
+            id="name"
+            placeholder="Please enter your name"
+          /><br />
+          <label for="email" id="email">Email:</label><br />
+          <input
+            type="email"
+            id="email"
+            placeholder="Please enter your email"
+          /><br />
+          <label for="number" id="num">Number:</label><br />
+          <input
+            type="number"
+            id="number"
+            placeholder="Please enter your number"
+          /><br />
+        </div>
+        <label for="education">Select Your Education Level: </label><br />
         <select name="" id="dropdown">
           <option value="freshman">Freshman</option>
           <option value="Sophomore">Sophomore</option>
           <option value="Junior">Junior</option>
-          <option value="Senior">Senior</option>
-        </select>
-        <label for="gender">Gender</label>
+          <option value="Senior">Senior</option></select
+        ><br />
+        <label for="gender" id="gender">Gender</label>
         <input type="radio" name="gen" />Female
-        <input type="radio" name="gen" />Male
-        <label for="lang">Language:</label>
-        <input type="checkbox" name="" id="" />HTML&CSS
-        <input type="checkbox" name="" id="" />JavaScript
-        <input type="checkbox" name="" id="" />React
-        <input type="checkbox" name="" id="" />Rubey
-        <input type="checkbox" name="" id="" />Node.js
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <button type="submit">Submit</button>
+        <input type="radio" name="gen" />Male<br />
+        <div id="lang">
+          <label for="lang" id="lan">Language:</label><br /><br />
+          <input type="checkbox" name="" id="" />HTML&CSS &nbsp; &nbsp;
+          <input type="checkbox" name="" id="" />React<br />
+          <input type="checkbox" name="" id="" />JavaScript&nbsp; &nbsp;
+          &nbsp;&nbsp; &nbsp;&nbsp;
+          <input type="checkbox" name="" id="" />Rubey<br />
+          <input type="checkbox" name="" id="" />Node.js&nbsp; &nbsp;&nbsp;
+          &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+          <input type="checkbox" name="" id="" />Pythone<br />
+        </div>
+        <label for="">Share about yourself:</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br />
+        <button type="submit" id="btn">Submit</button><br />
       </form>
     </main>
   </body>

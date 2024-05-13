@@ -1,4 +1,11 @@
-h1 {
-  font-size: 100px;
-  color: red;
+body {
+  /* background-color: rgb(151, 149, 149); */
+  background-image: url(Images/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm00ODYtYmctMDA0LWt6MG15bDIwLmpwZw.webp);
+  background-size: cover;
+}
+#title {
+  text-align: center;
+  margin: 50px 0 25px 0;
+  color: rgb(255, 252, 252);
+  font-size: 55px;
 }
