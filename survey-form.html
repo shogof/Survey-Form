@@ -19,29 +19,54 @@
             type="text"
             id="name"
             placeholder="Please enter your name"
+            required
           /><br />
-          <label for="email" id="email">Email:</label><br />
+          <label
+            for="email"
+            id="email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            >Email:</label
+          ><br />
           <input
             type="email"
             id="email"
             placeholder="Please enter your email"
+            required
           /><br />
-          <label for="number" id="num">Number:</label><br />
+          <label for="number" id="num" pattern="[789][0-9]{9}">Number:</label
+          ><br />
           <input
             type="number"
             id="number"
             placeholder="Please enter your number"
-          /><br />
+            min="700000000"
+            max="799999999"
+            <!--
+            it
+            is
+            not
+            very
+            professional
+            but
+            I
+            will
+            work
+            on
+            it
+            --
+          />
+          required /><br />
         </div>
         <label for="education">Select Your Education Level: </label><br />
-        <select name="" id="dropdown">
+        <select name="" id="dropdown" required>
+          <option value="">Select One</option>
           <option value="freshman">Freshman</option>
           <option value="Sophomore">Sophomore</option>
           <option value="Junior">Junior</option>
           <option value="Senior">Senior</option></select
         ><br />
         <label for="gender" id="gender">Gender</label>
-        <input type="radio" name="gen" />Female
+        <input type="radio" name="gen" checked />Female
         <input type="radio" name="gen" />Male<br />
         <div id="lang">
           <label for="lang" id="lan">Language:</label><br />
