@@ -56,13 +56,13 @@ form {
   margin: 5px 0;
 }
 
-#lan {
+#lang-label {
   font-size: 20px;
   display: inline-block;
   margin: 10px 0;
 }
 
-#btn {
+#submit {
   width: 100%;
   height: 40px;
   border: none;
