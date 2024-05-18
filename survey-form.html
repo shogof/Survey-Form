@@ -12,50 +12,41 @@
       <p id="description">Answer our survey to earn more loyalty points!</p>
     </header>
     <main>
-      <form action="" id="survey-form">
+      <form action="#" id="survey-form">
         <div class="info">
-          <label for="name" id="name">Name:</label><br />
+          <label for="name" id="name-label">Name:</label><br />
           <input
             type="text"
             id="name"
+            name="name"
             placeholder="Please enter your name"
             required
           /><br />
           <label
             for="email"
-            id="email"
+            id="email-label"
             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
             >Email:</label
           ><br />
           <input
             type="email"
             id="email"
+            name="email"
             placeholder="Please enter your email"
             required
           /><br />
-          <label for="number" id="num" pattern="[789][0-9]{9}">Number:</label
+          <label for="number" id="number-label" pattern="[789][0-9]{9}"
+            >Number:</label
           ><br />
           <input
             type="number"
             id="number"
+            name="number"
             placeholder="Please enter your number"
             min="700000000"
             max="799999999"
-            <!--
-            it
-            is
-            not
-            very
-            professional
-            but
-            I
-            will
-            work
-            on
-            it
-            --
-          />
-          required /><br />
+            required
+          /><br />
         </div>
         <label for="education">Select Your Education Level: </label><br />
         <select name="" id="dropdown" required>
