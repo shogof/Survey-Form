@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Answer our survey to earn more loyalty points!</p>
+    </header>
+    <main>
+      <form action="#" id="survey-form">
+        <div class="info">
+          <label for="name" id="name-label">Name:</label><br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Please enter your name"
+            required
+          /><br />
+          <label
+            for="email"
+            id="email-label"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+            >Email:</label
+          ><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Please enter your email"
+            required
+          /><br />
+          <label for="number" id="number-label" pattern="[789][0-9]{9}"
+            >Number:</label
+          ><br />
+          <input
+            type="number"
+            id="number"
+            name="number"
+            placeholder="Please enter your number"
+            min="700000000"
+            max="799999999"
+            required
+          /><br />
+        </div>
+        <label for="education">Select Your Education Level: </label><br />
+        <select name="education" id="dropdown">
+          <option value="freshman">Freshman</option>
+          <option value="sophomore">Sophomore</option>
+          <option value="junior">Junior</option>
+          <option value="senior">Senior</option></select
+        ><br />
+        <label id="gender">Gender</label><br />
+        <input type="radio" id="female" name="gender" value="female" />Female
+        <input type="radio" id="male" name="gender" value="male" />Male<br />
+        <div id="lan">
+          <label id="lang-label">Language:</label><br />
+          <input
+            type="checkbox"
+            id="html_css"
+            name="language"
+            value="HTML&CSS"
+          />HTML&CSS &nbsp;
+          <input type="checkbox" id="react" name="language" value="React" />
+          React<br />
+          <input
+            type="checkbox"
+            id="javascript"
+            name="language"
+            value="JavaScript"
+          />JavaScript&nbsp; &nbsp; &nbsp; &nbsp;
+          <input
+            type="checkbox"
+            id="ruby"
+            name="language"
+            value="Ruby"
+          />Ruby<br />
+          <input
+            type="checkbox"
+            id="nodejs"
+            name="language"
+            value="Node.js"
+          />Node.js&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+          <input
+            type="checkbox"
+            id="python"
+            name="language"
+            value="Python"
+          />Python<br />
+        </div>
+        <br />
+        <label for="about">Share about yourself:</label>
+        <textarea name="about" id="about" cols="30" rows="10"></textarea><br />
+        <button type="submit" id="submit">Submit</button><br />
+      </form>
+    </main>
+    <footer>Develop By: Shogofa Muradi</footer>
+  </body>
+</html>
