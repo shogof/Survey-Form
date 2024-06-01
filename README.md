@@ -2,7 +2,7 @@
 
 ## Project Description 📝
 
-> 🌟 👩‍💻 Welcome to our Computer Enroll Survey Form! Crafted with simplicity and practicality, this exercise serves as a learning opportunity for aspiring web developers like yourself. Dive into the fundamentals as you navigate through this form designed to gather insights into computing needs. Your engagement with this exercise enriches your understanding and hones your skills in web development. Let's make this exercise a rewarding journey towards mastery! Happy coding! 💻📝🚀
+> 🌟 👩‍💻 Welcome to our Computer Enroll Survey Form! Crafted with simplicity and practicality, this exercise serves as a learning opportunity for aspiring web developers like yourself. Dive into the fundamentals as you navigate through this form designed to gather insights into computing needs. Your engagement with this exercise enriches your understanding and hones your skills in web development. Let's make this exercise a rewarding journey towards mastery! Happy coding💻📝🚀
 
 ## Demo 📸
 
