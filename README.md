@@ -1,24 +1,101 @@
-# Survey-Form
+# Survey-Form 🚀
 
-This is a mini project of Startupistan
-This is Shegofa Developer, So this is my first real Mini or Micro project
-I will do big things and big & super projects in the future
+## Project Description 📝
 
-Project requirements
+> 🌟 👩‍💻 Welcome to our Computer Enroll Survey Form! Crafted with simplicity and practicality, this exercise serves as a learning opportunity for aspiring web developers like yourself. Dive into the fundamentals as you navigate through this form designed to gather insights into computing needs. Your engagement with this exercise enriches your understanding and hones your skills in web development. Let's make this exercise a rewarding journey towards mastery! Happy coding! 💻📝🚀
 
-Page Title: The page should have a title in an h1 element with the id title.
-Short Explanation: Provide a short explanation in a p element with the id description.
-Form Element: Include a form element with the id survey-form.
-Name Input: Inside the form, there should be an input field for entering the name with the id name and the type text.
-Email Input: Inside the form, there should be an input field for entering the email with the id email.
-Email Validation: Display an HTML5 validation error if an incorrectly formatted email is entered.
-Number Input: Inside the form, include an input field for entering a number with the id number.
-Number Validation: Prevent entering non-numbers or show an HTML5 validation error for unsupported browsers.
-Number Range Validation: Display an HTML5 validation error if the entered number is outside the specified range.
-Labels: For the name, email, and number inputs, provide corresponding label elements with the ids name-label, email-label, and number-label.
-Placeholder Text: Add placeholder text to describe each input field's purpose or provide instructions.
-Dropdown: Include a select dropdown element with the id dropdown and at least two options.
-Radio Buttons: Include a group of at least two radio buttons, grouped using the name attribute.
-Checkboxes: Provide a series of checkboxes, each with a value attribute, allowing for multiple selections.
-Textarea: Include a textarea for additional comments.
-Submit Button: Add a button with the id submit to submit all the inputs.
+## Demo 📸
+
+![Demo](image/SurveyProject ScreenShot.png)
+
+## Technologies Used 🛠️
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+## Installation 💻
+
+To install and set up this project, simply follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone git@github.com:shogof/Technical-Documentation-page.git
+   ```
+
+🎉 Once you've cloned the repository, you're all set to start exploring and using the project! If you encounter any issues or have questions, feel free to reach out for assistance. 🚀
+
+## Usage 🎯
+
+To use this project, follow these steps:
+
+1. **Installation:**
+   If you haven't already, follow the installation instructions mentioned in the [Installation](#installation-) section to clone the repository.
+
+2. **Navigate to project directory:**
+   ```bash
+   cd Technical-Documentation-page
+   ```
+3. **Open the HTML file:**
+   Open the index.html file in your preferred web browser. You can do this by double-clicking the file or using a command-line tool like open (for macOS) or start (for Windows).
+
+4. **Explore the documentation:**
+   Once the HTML file is opened, you'll have access to the technical documentation page. Navigate through different sections using the sidebar navigation or scroll through the content to learn about various topics.
+
+5. **Modify as needed:**
+   If you'd like to customize the documentation page or add your own content, feel free to edit the HTML and CSS files in your text editor of choice.
+
+6. **Share and contribute:**
+   If you find this project helpful, consider sharing it with others. You can also contribute to the project by submitting bug reports, feature requests, or pull requests to improve it for everyone.
+
+## Author 👩‍💻
+
+- LinkedIn: [Shegofa Developer](www.linkedin.com/in/shegofa-developer-aa362030b)
+- Email: (shogofadeveloper12@gmail.com)
+
+## Contributing 🤝
+
+Thank you for considering contributing to this project! Contributions from the community help improve the project for everyone.
+
+### How to Contribute
+
+If you'd like to contribute to this project, follow these steps:
+
+1.  **Fork the repository:**
+    Fork the repository to your own GitHub account.
+
+2.  **Clone the repository:**
+    Clone the repository to your local machine.
+
+    ```bash
+    git clone https://github.com/Shegofa/Technical-Documentation-page.git
+    ```
+
+3.  **Create a new branch:**
+    Create a new branch with a descriptive name to work on your contribution.
+
+    ```bash
+    git checkout -b feature/new-feature
+
+    ```
+
+4.  **Make your changes:**
+    Make your changes to the project in your local environment. Ensure that your changes are in line with the project's coding conventions and style guidelines.
+
+5.  **Commit your changes:**
+    Once you've made your changes, commit them to your branch with clear and descriptive commit messages.
+
+    ```bash
+    git commit -a m 'Add new feature'
+
+    ```
+
+6.  **Push your changes:**
+    Push your changes to your forked repository on GitHub.
+
+    ```bash
+    git push origin feature/new-feature
+
+    ```
+
+7.  **Submit a pull request:**
+    Go to the original repository on GitHub and submit a pull request with your changes.
