@@ -6,7 +6,7 @@
 
 ## Demo 📸
 
-![Demo](Images/Images/s.png)
+![Demo](Images/s.png)
 
 ## Technologies Used 🛠️
 
