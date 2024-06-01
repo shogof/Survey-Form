@@ -6,7 +6,7 @@
 
 ## Demo 📸
 
-![Demo](image/SurveyProject ScreenShot.png)
+![Demo](Image/SurveyProject ScreenShot.png)
 
 ## Technologies Used 🛠️
 
